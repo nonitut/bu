@@ -1,0 +1,14 @@
+*{ box-sizing: border-box;}
+
+body{
+    background: palegreen;
+}
+
+@font-face {
+font-family: "CarlaSansLight";
+src: url("../fonts/CarlaSansLight.ttf") format("truetype");
+font-style: Light;
+font-weight: Light;
+}
+
+h1, p{ font-family: 'CarlaSansLight'; }
